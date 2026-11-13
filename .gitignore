@@ -1,0 +1,24 @@
+# Coordination data and local agent configuration
+/.maestri/
+/.agents/
+/.codex/
+/.aws/
+
+# Source photos and contact reference remain on this computer
+/fotos/
+/contatos.txt
+/assets/hero-truck.png
+
+# Local previews and generated archives
+/dist/
+*.zip
+*.log
+Thumbs.db
+.DS_Store
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
